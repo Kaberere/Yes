@@ -10333,6 +10333,10 @@ a:focus {
   .sidebar .sidebar-heading {
     text-align: left;
   }
+
+  .main-sidebar { 
+    background-color: #7F622C !important
+  }
   .sidebar.toggled {
     overflow: visible;
     width: 6.5rem !important;
