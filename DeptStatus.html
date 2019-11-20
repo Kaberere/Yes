@@ -21,13 +21,6 @@
       }
     </style>
 
-    <style>
-      tr {
-        cursor: pointer;
-      }  
-    </style>
-
-
   <!-- Custom styles for this template -->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
@@ -46,7 +39,7 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-text mx-3">KSG Work Plan Dashboard</div>
+        <div class="sidebar-brand-text mx-3">KSG Department Work Plan</div>
       </a>
 
       <!-- Divider -->
@@ -54,17 +47,17 @@
 
       <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-      <a class="nav-link" href="setWorkPlan.html">
+      <a class="nav-link" href="DeptSet.html">
         <i class="fas fa-fw fa-table"></i>
-        <span>Set Work Plan</span></a>
+        <span>Set Department Work Plan</span></a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="UpdateStatus.html">
+      <a class="nav-link" href="DeptStatus.html">
         <i class="fas fa-fw fa-pen"></i>
         <span>Update status of achievement</span></a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="ViewWorkPlan.html">
+        <a class="nav-link" href="DeptView.html">
           <i class="fas fa-fw fa-eye"></i>
           <span>View Work Plan Updates</span></a>
       </li>
@@ -216,21 +209,28 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-2" style="color:#7F622C"><strong>Update Status of Achievement</strong></h1>
+          <h1 class="h3 mb-2 text-center" style="color:black"><strong>Update Status of Achievement</strong></h1>
+          
 
           <!-- DataTables Example -->
-          <div class="card">
+          <div class="card" style="width:102%;">
               
               <div class="card-body">
                 <div id="table" class="table-editable">
-                  <table class="table table-bordered table-responsive-md table-striped text-center" id="dataTable">
-                    <thead>
+                  <table class="table table-bordered table-responsive-md" id="dataTable">
+                      <thead style="background-color: #CBD300;">
+                          <tr>
+                            <th colspan="10" style="color:black">Objective 1: Implement Progressive Career Guideline</th>
+                          </tr>
+                        </thead>
+                        <thead style="background-color: #7F622C;">  
                       <tr>
-                        <th class="text-center" rowspan="2" style="color:black">Task Description &nbsp;</th>
-                        <th class="text-center" rowspan="2" style="color:black">Expected Results &nbsp;</th>
+                        <th class="text-center" rowspan="2" style="color:black">Activity &nbsp;</th>
+                        <th class="text-center" rowspan="2" style="color:black">Expected Output &nbsp;</th>
                         <th class="text-center" rowspan="2" style="color:black">Performance Indicator &nbsp;</th>
-                        <th class="text-center" rowspan="2" style="color:black">Due Date &nbsp;</th>
+                        <th class="text-center" rowspan="2" style="color:black">Person Responsible &nbsp;</th>
                         <th class="text-center" rowspan="2" style="color:black">Resources &nbsp;</th>
+                        <th class="text-center" rowspan="2" style="color:black">Assumptions &nbsp;</th>
                         <th colspan="4" style="color:black">Time Frame &nbsp;</th>
                       </tr>
                       <tr>
@@ -241,8 +241,8 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <a href="UpdateButton.html">
-                        <tr>
+                      <tr class="clickable-row" a href="DeptBut.html">
+                        <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
@@ -252,9 +252,10 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                      </tr>
+                      </tr></a>
                       <!-- This is our clonable table line -->
-                      <tr>
+                      <tr class="clickable-row" a href="DeptBut.html">
+                        <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
@@ -264,9 +265,10 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                      </tr>
+                      </tr></a>
                       <!-- This is our clonable table line -->
-                      <tr>
+                      <tr class="clickable-row" a href="DeptBut.html">
+                        <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
@@ -276,20 +278,10 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                      </tr>
+                      </tr></a>
                       <!-- This is our clonable table line -->
-                      <tr>
+                      <tr class="clickable-row" a href="DeptBut.html">
                         <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
@@ -299,19 +291,9 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                      </tr>
-                      <tr>
+                      </tr></a>
+                      <tr class="clickable-row" a href="DeptBut.html">
                         <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
@@ -321,19 +303,9 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                      </tr>
-                      <tr>
+                        </tr></a>
+                      <tr class="clickable-row" a href="DeptBut.html">
                         <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
                         <td class="pt-3-half">&nbsp;</td>
@@ -343,55 +315,432 @@
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
                         <td>&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                      </tr>
-                      <tr>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td class="pt-3-half">&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                        <td>&nbsp;</td>
-                      </tr></a> 
+                      </tr></a>
                     </tbody>
                   </table>
                 </div>
-              </div>
+              </div> <br>
+              <div class="card-body">
+                  <div id="table" class="table-editable">
+                    <table class="table table-bordered table-responsive-md" id="dataTable">
+                        <thead style="background-color: #CBD300;">
+                            <tr>
+                              <th colspan="10" style="color:black">Objective 2: Implement Progressive Career Guideline</th>
+                            </tr>
+                          </thead>
+                          <thead style="background-color: #7F622C;">  
+                        <tr>
+                          <th class="text-center" rowspan="2" style="color:black">Activity &nbsp;</th>
+                          <th class="text-center" rowspan="2" style="color:black">Expected Output &nbsp;</th>
+                          <th class="text-center" rowspan="2" style="color:black">Performance Indicator &nbsp;</th>
+                          <th class="text-center" rowspan="2" style="color:black">Person Responsible &nbsp;</th>
+                          <th class="text-center" rowspan="2" style="color:black">Resources &nbsp;</th>
+                          <th class="text-center" rowspan="2" style="color:black">Assumptions &nbsp;</th>
+                          <th colspan="4" style="color:black">Time Frame &nbsp;</th>
+                        </tr>
+                        <tr>
+                          <th style="color:black">Q1</th>
+                          <th style="color:black">Q2</th>
+                          <th style="color:black">Q3</th>
+                          <th style="color:black">Q4</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="clickable-row" a href="DeptBut.html">
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr></a>
+                            <!-- This is our clonable table line -->
+                        <tr class="clickable-row" a href="DeptBut.html">
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr></a>
+                            <!-- This is our clonable table line -->
+                        <tr class="clickable-row" a href="DeptBut.html">
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr></a>
+                            <!-- This is our clonable table line -->
+                        <tr class="clickable-row" a href="DeptBut.html">
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr></a>
+                        <tr class="clickable-row" a href="DeptBut.html">
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr></a>
+                        <tr class="clickable-row" a href="DeptBut.html">
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td class="pt-3-half">&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr></a>
+                      </tbody>
+                    </table>
+                  </div>
+                </div> <br>
+                <div class="card-body">
+                    <div id="table" class="table-editable">
+                      <table class="table table-bordered table-responsive-md" id="dataTable">
+                          <thead style="background-color: #CBD300;">
+                              <tr>
+                                <th colspan="10" style="color:black">Objective 3: Implement Progressive Career Guideline</th>
+                              </tr>
+                            </thead>
+                            <thead style="background-color: #7F622C;">  
+                          <tr>
+                            <th class="text-center" rowspan="2" style="color:black">Activity &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Expected Output &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Performance Indicator &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Person Responsible &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Resources &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Assumptions &nbsp;</th>
+                            <th colspan="4" style="color:black">Time Frame &nbsp;</th>
+                          </tr>
+                          <tr>
+                            <th style="color:black">Q1</th>
+                            <th style="color:black">Q2</th>
+                            <th style="color:black">Q3</th>
+                            <th style="color:black">Q4</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="clickable-row" a href="DeptBut.html">
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr></a>
+                              <!-- This is our clonable table line -->
+                            <tr class="clickable-row" a href="DeptBut.html">
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr></a>
+                              <!-- This is our clonable table line -->
+                            <tr class="clickable-row" a href="DeptBut.html">
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr></a>
+                              <!-- This is our clonable table line -->
+                            <tr class="clickable-row" a href="DeptBut.html">
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr></a>
+                            <tr class="clickable-row" a href="DeptBut.html">
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr></a>
+                            <tr class="clickable-row" a href="DeptBut.html">
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td class="pt-3-half">&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr></a>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div> <br>
+                  <div class="card-body">
+                      <div id="table" class="table-editable">
+                        <table class="table table-bordered table-responsive-md" id="dataTable">
+                            <thead style="background-color: #CBD300;">
+                                <tr>
+                                  <th colspan="10" style="color:black">Objective 4: Implement Progressive Career Guideline</th>
+                                </tr>
+                              </thead>
+                              <thead style="background-color: #7F622C;">  
+                            <tr>
+                              <th class="text-center" rowspan="2" style="color:black">Activity &nbsp;</th>
+                              <th class="text-center" rowspan="2" style="color:black">Expected Output &nbsp;</th>
+                              <th class="text-center" rowspan="2" style="color:black">Performance Indicator &nbsp;</th>
+                              <th class="text-center" rowspan="2" style="color:black">Person Responsible &nbsp;</th>
+                              <th class="text-center" rowspan="2" style="color:black">Resources &nbsp;</th>
+                              <th class="text-center" rowspan="2" style="color:black">Assumptions &nbsp;</th>
+                              <th colspan="4" style="color:black">Time Frame &nbsp;</th>
+                            </tr>
+                            <tr>
+                              <th style="color:black">Q1</th>
+                              <th style="color:black">Q2</th>
+                              <th style="color:black">Q3</th>
+                              <th style="color:black">Q4</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                              <tr class="clickable-row" a href="DeptBut.html">
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr></a>
+                                <!-- This is our clonable table line -->
+                              <tr class="clickable-row" a href="DeptBut.html">
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr></a>
+                                <!-- This is our clonable table line -->
+                              <tr class="clickable-row" a href="DeptBut.html">
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr></a>
+                                <!-- This is our clonable table line -->
+                              <tr class="clickable-row" a href="DeptBut.html">
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr></a>
+                              <tr class="clickable-row" a href="DeptBut.html">
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr></a>
+                              <tr class="clickable-row" a href="DeptBut.html">
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td class="pt-3-half">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr></a>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div> <br>
+                <div class="card-body">
+                    <div id="table" class="table-editable">
+                      <table class="table table-bordered table-responsive-md" id="dataTable">
+                          <thead style="background-color: #CBD300;">
+                              <tr>
+                                <th colspan="10" style="color:black">Objective 5: Implement Progressive Career Guideline</th>
+                              </tr>
+                            </thead>
+                            <thead style="background-color: #7F622C;">  
+                          <tr>
+                            <th class="text-center" rowspan="2" style="color:black">Activity &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Expected Output &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Performance Indicator &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Person Responsible &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Resources &nbsp;</th>
+                            <th class="text-center" rowspan="2" style="color:black">Assumptions &nbsp;</th>
+                            <th colspan="4" style="color:black">Time Frame &nbsp;</th>
+                          </tr>
+                          <tr>
+                            <th style="color:black">Q1</th>
+                            <th style="color:black">Q2</th>
+                            <th style="color:black">Q3</th>
+                            <th style="color:black">Q4</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="clickable-row" a href="DeptBut.html">
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr></a>
+                              <!-- This is our clonable table line -->
+                          <tr class="clickable-row" a href="DeptBut.html">
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr></a>
+                              <!-- This is our clonable table line -->
+                          <tr class="clickable-row" a href="DeptBut.html">
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr></a>
+                              <!-- This is our clonable table line -->
+                          <tr class="clickable-row" a href="DeptBut.html">
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr></a>
+                          <tr class="clickable-row" a href="DeptBut.html">
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr></a>
+                          <tr class="clickable-row" a href="DeptBut.html">
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td class="pt-3-half">&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                          </tr></a>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+
             </div>
 
         </div>
@@ -546,12 +895,12 @@ $('.table-add').on('click', 'button', () => {
 
 <script>
   $("tr").click(function(){
-   window.location = "UpdateButton.html";
+   window.location = "DeptBut.html";
  });
 
  $(document).ready(function($) {
     $("tr").click(function() {
-        window.document.location = "UpdateButton.html";
+        window.document.location = "DeptBut.html";
     });
 });
 
